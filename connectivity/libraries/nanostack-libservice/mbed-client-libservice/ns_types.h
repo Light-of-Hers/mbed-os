@@ -53,6 +53,7 @@
 #ifndef __STDC_CONSTANT_MACROS
 #define __STDC_CONSTANT_MACROS
 #endif
+#define __int64_t_defined 1
 
 #include <stddef.h>
 #include <inttypes.h> // includes <stdint.h>; debugf() users need PRIu32 etc
